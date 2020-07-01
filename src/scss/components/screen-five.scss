@@ -1,0 +1,38 @@
+.fifth-screen-title {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+color: #010662;
+// margin: 15rem 1rem 15rem 1rem;
+padding: 5rem 1rem 64rem 0;
+background: url(../img/fifth-bg.png) no-repeat center/cover;
+}
+
+.fifth-screen-point-wrapper {
+  margin: -65rem 0 0 0;
+}
+
+.point-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #FBFBFB;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin: 23rem 50rem 5rem 50rem;
+padding: 4rem 3rem 4rem;
+}
+
+.point-svg {
+  margin: -11rem 1rem 2rem 1rem;
+}
+
+.fifth-screen-point-text {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 121%;
+text-align: center;
+color: #323232;
+}

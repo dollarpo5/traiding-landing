@@ -1,0 +1,135 @@
+.screen-six {
+  background: url(../img/bg2.png) no-repeat center/cover;
+  // height: 150vh;
+}
+
+.form-texts-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.two-texts-wrapper {
+  // display: flex;
+  // flex-direction: column;
+  // flex-flow: row wrap;
+  // padding: 1rem;
+  margin: 27rem 18rem -13rem 0;
+}
+
+.first-text {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 118.4%;
+color: #FFFFFF;
+margin-bottom: 5rem;
+}
+
+.second-text {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 118.4%;
+color: #FFFFFF;
+}
+
+.footer {
+  display: flex;
+}
+
+.form-wrapper2 {
+width: 395px;
+float: right;
+margin-right: 240px;
+margin-top: 20rem;
+}
+
+.number-credits {
+margin-top: 10rem;
+}
+
+.credits {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 16px;
+color: #FFFFFF;
+margin-top: 10rem;
+}
+
+.policy-agreements {
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 4.5rem;
+color: #FFFFFF;
+margin-top: 1rem;
+text-decoration: none;
+cursor: pointer;
+// border-bottom: 2px dotted #D2DBE9;
+}
+
+.social-networks2 {
+max-width: 320px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 7rem 2rem 0 74rem;
+}
+
+.socials__item {
+margin: 20px 12px 0;
+}
+
+.sub-count {
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+margin-top: 4.5rem;
+color: #FFFFFF;
+}
+
+.socials__item {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: no-repeat center / 16px, #4267B1;
+transition: 0.5s;
+}
+
+.socials__item--yt {
+background: url(https://gerchik.fra1.cdn.digitaloceanspaces.com/img/client/common/socials/yt-icon.svg) no-repeat center,#EB5467;
+text-decoration: none;
+cursor: pointer;
+}
+
+.socials__item--in {
+background: url(https://gerchik.fra1.cdn.digitaloceanspaces.com/img/client/common/socials/in-icon.svg) no-repeat center,#C23584;
+text-decoration: none;
+cursor: pointer;
+}
+
+.socials__item--fb {
+background: url(https://gerchik.fra1.cdn.digitaloceanspaces.com/img/client/common/socials/fb-icon.svg) no-repeat center,#4267B1;
+text-decoration: none;
+cursor: pointer;
+}
+
+.socials__item--vk {
+background: url(https://gerchik.fra1.cdn.digitaloceanspaces.com/img/client/common/socials/vk-icon.svg) no-repeat center/16px,#4C75A3;
+text-decoration: none;
+cursor: pointer;
+}
+
+.socials__item--tg {
+background: url(https://gerchik.fra1.cdn.digitaloceanspaces.com/img/client/common/socials/tg-icon.svg) no-repeat center/16px,#2CA5E0;
+text-decoration: none;
+cursor: pointer;
+}

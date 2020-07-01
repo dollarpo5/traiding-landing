@@ -1,0 +1,111 @@
+.form-wrapper {
+    width: 395px;
+    float: right;
+    margin-right: 240px;
+    margin-top: -380px;
+   }
+   
+   .form {
+   width: 250px;
+   background: url(../img/column.png) no-repeat center/cover;
+   box-shadow: 0px 20px 40px rgba(18,18,18,0.4);
+   border-radius: 8px;
+   text-align: center;
+   padding: 21px 60px 32px;
+   }
+   
+   .lock {
+   margin: 2rem;
+   }
+   
+   .subtitle1 {
+   font-family: 'Lato', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 31px;
+   text-align: center;
+   color: #3A405B;
+   }
+   
+   .subtitle2 {
+   font-family: 'Lato', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 22px;
+   text-align: center;
+   color: #3A405B;
+   opacity: 0.8;
+   }
+   
+   .social-networks {
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   margin: 20px auto 20px;
+   }
+   
+   .facebook {
+    background: url(../img/fb.png) no-repeat center/cover;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 1rem;
+   }
+   
+   .vkontakte {
+   background: url(../img/vk.png) no-repeat center/cover;
+   width: 40px;
+   height: 40px;
+   cursor: pointer;
+   margin: 1rem;
+   }
+   
+   .form-element {
+   width: 100%;
+   margin-top: 12px;
+   background: #D2DBE9;
+   border-radius: 4px;
+   }
+   
+   .submit-button {
+   font-family: 'Lato', sans-serif;
+   margin-top: 33px;
+   width: 100%;
+   display: inline-block;
+   border: 1px solid #195DDC;
+   background: #010662;
+   box-shadow: 0px 10px 25px rgba(58,64,91,0.15);
+   border-radius: 100px;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 14px;
+   text-align: center;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   padding: 14px 28px;
+   transition: 0.5s;
+   cursor: pointer;
+   outline: none;
+   }
+   
+   .form-bottom-wrapper {
+   display: flex;
+   }
+   
+   .already-reg {
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 25px;
+   margin: 2rem 0 0 1rem;
+   cursor: pointer;
+   }
+   
+   .enterence {
+   margin: 2rem 0 0 2rem;
+   cursor: pointer;
+   }

@@ -1,0 +1,40 @@
+.sidenav {
+    height: 100%;
+    width: 9rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4D53C0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: 0 3.5rem;
+     }
+     
+   .sidenav a {
+   padding: 6px 16px 6px 16px;
+   text-decoration: none;
+   font-size: 2.5rem;
+   color: #818181;
+   display: block;
+     }
+     
+     .sidenav a:hover {
+    color: #f1f1f1;
+     }
+   
+     .sidenavIcons{
+     padding: 1rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     }
+   
+     .sidenavIcons a {
+     padding: 1.5rem 3rem;
+     cursor: pointer;
+     }
+   
+     .sidenavIcons a:hover {
+     background: rgba(234,234,234,0.5);
+     }
