@@ -12,6 +12,9 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2A2E31;
 box-shadow: 0px 10px 25px rgba(58, 64, 91, 0.15);
 border-radius: 100px 0px 0px 100px;
 padding: 1rem;
+-webkit-box-shadow: 0px 20px 100px 30px rgba(0,0,0,0.46);
+-moz-box-shadow: 0px 20px 100px 30px rgba(0,0,0,0.46);
+box-shadow: 0px 20px 100px 30px rgba(0,0,0,0.46);
 }
   
 .header-top-menu {
@@ -24,6 +27,12 @@ position: relative;
 .header-top-menu::before {
 box-sizing: border-box;
 color: #fff;
+}
+
+.site-nav {
+display: flex;
+align-self: center;
+padding: 1rem;
 }
   
 .phone-call {
@@ -38,21 +47,44 @@ z-index: 2;
 width: 36px;
 height: 36px;
 border-radius: 50%;
-margin-right: 200px;
+background: url(../../img/call.svg) no-repeat center,#195DDC;
+margin-right: 14px;
 }
   
 .phone-call__number {
-font-size: 14px;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
 line-height: 14px;
-font-weight: 700;
+text-align: center;
 letter-spacing: 1px;
 text-transform: uppercase;
-color: #195DDC;
+color: #4D53C0;
+}
+
+.phone-call__arrow {
+width: 12px;
+height: 12px;
+background: url(../../img/Arrow.svg) no-repeat center/contain;
+margin-left: 4px;
+transition: 0.3s;
+cursor: pointer;
+}
+
+.white-arrow {
+width: 16px;
+height: 16px;
+background: url(../../img/Arrow-white.svg) no-repeat center/contain;
+}
+
+.white {
+font-size: 12px;
+color: #ffffff; 
 }
   
 .header-top-menu__item {
 font-family: 'Lato', sans-serif;
-font-family: 'Roboto', sans-serif;
 font-weight: bold;
 font-size: 12px;
 line-height: 14px;
@@ -66,6 +98,26 @@ z-index: 2;
 text-decoration: none;
 cursor: pointer;
 transition: 0.5s;
+}
+
+.phone-call__list {
+width: 100%;
+min-width: initial;
+padding: 12px 10px;
+position: absolute;
+top: 50px;
+left: 0;
+}
+
+.submenu-box {
+    display: none;
+    min-width: 260px;
+    box-shadow: 0px 20px 40px rgba(18,18,18,0.4);
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 24px;
+    position: absolute;
+    z-index: 50;
 }
   
 .header-bottom {

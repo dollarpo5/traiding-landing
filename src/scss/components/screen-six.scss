@@ -90,9 +90,9 @@ font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 16px;
-line-height: 25px;
+line-height: 120px;
 text-align: center;
-margin-top: 4.5rem;
+// margin-top: 4.5rem;
 color: #FFFFFF;
 }
 
@@ -100,36 +100,35 @@ color: #FFFFFF;
 width: 40px;
 height: 40px;
 border-radius: 50%;
-background: no-repeat center / 16px, #4267B1;
 transition: 0.5s;
 }
 
 .socials__item--yt {
-background: url(https://gerchik.fra1.cdn.digitaloceanspaces.com/img/client/common/socials/yt-icon.svg) no-repeat center,#EB5467;
+background: url(../../img/YouTube.svg) no-repeat center,#EB5467;
 text-decoration: none;
 cursor: pointer;
 }
 
 .socials__item--in {
-background: url(https://gerchik.fra1.cdn.digitaloceanspaces.com/img/client/common/socials/in-icon.svg) no-repeat center,#C23584;
+background: url(../../img/Instagram.svg) no-repeat center,#C23584;
 text-decoration: none;
 cursor: pointer;
 }
 
 .socials__item--fb {
-background: url(https://gerchik.fra1.cdn.digitaloceanspaces.com/img/client/common/socials/fb-icon.svg) no-repeat center,#4267B1;
+background: url(../../img/Facebook.svg) no-repeat center,#4267B1;
 text-decoration: none;
 cursor: pointer;
 }
 
 .socials__item--vk {
-background: url(https://gerchik.fra1.cdn.digitaloceanspaces.com/img/client/common/socials/vk-icon.svg) no-repeat center/16px,#4C75A3;
+background: url(../../img/Vk.svg) no-repeat center/16px,#4C75A3;
 text-decoration: none;
 cursor: pointer;
 }
 
 .socials__item--tg {
-background: url(https://gerchik.fra1.cdn.digitaloceanspaces.com/img/client/common/socials/tg-icon.svg) no-repeat center/16px,#2CA5E0;
+background: url(../../img/Telegramm.svg) no-repeat center/16px,#2CA5E0;
 text-decoration: none;
 cursor: pointer;
 }
