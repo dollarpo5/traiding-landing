@@ -20,7 +20,7 @@
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 300;
-font-size: 30px;
+font-size: 3rem;
 line-height: 118.4%;
 color: #FFFFFF;
 margin-bottom: 5rem;
@@ -30,7 +30,7 @@ margin-bottom: 5rem;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 30px;
+font-size: 3rem;
 line-height: 118.4%;
 color: #FFFFFF;
 }
@@ -40,9 +40,9 @@ color: #FFFFFF;
 }
 
 .form-wrapper2 {
-width: 395px;
+width: 39.5rem;
 float: right;
-margin-right: 240px;
+margin-right: 24rem;
 margin-top: 20rem;
 }
 
@@ -54,8 +54,8 @@ margin-top: 10rem;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 300;
-font-size: 15px;
-line-height: 16px;
+font-size: 1.5rem;
+line-height: 1.6rem;
 color: #FFFFFF;
 margin-top: 10rem;
 }
@@ -64,17 +64,17 @@ margin-top: 10rem;
 font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 1.4rem;
 line-height: 4.5rem;
 color: #FFFFFF;
 margin-top: 1rem;
 text-decoration: none;
 cursor: pointer;
-// border-bottom: 2px dotted #D2DBE9;
+// border-bottom: 0.2rem dotted #D2DBE9;
 }
 
 .social-networks2 {
-max-width: 320px;
+max-width: 32rem;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -82,23 +82,23 @@ margin: 7rem 2rem 0 74rem;
 }
 
 .socials__item {
-margin: 20px 12px 0;
+margin: 2rem 1.2rem 0;
 }
 
 .sub-count {
 font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 300;
-font-size: 16px;
-line-height: 120px;
+font-size: 1.6rem;
+line-height: 12rem;
 text-align: center;
 // margin-top: 4.5rem;
 color: #FFFFFF;
 }
 
 .socials__item {
-width: 40px;
-height: 40px;
+width: 4rem;
+height: 4rem;
 border-radius: 50%;
 transition: 0.5s;
 }
@@ -122,13 +122,13 @@ cursor: pointer;
 }
 
 .socials__item--vk {
-background: url(../../img/Vk.svg) no-repeat center/16px,#4C75A3;
+background: url(../../img/Vk.svg) no-repeat center/1.6rem,#4C75A3;
 text-decoration: none;
 cursor: pointer;
 }
 
 .socials__item--tg {
-background: url(../../img/Telegramm.svg) no-repeat center/16px,#2CA5E0;
+background: url(../../img/Telegramm.svg) no-repeat center/1.6rem,#2CA5E0;
 text-decoration: none;
 cursor: pointer;
 }

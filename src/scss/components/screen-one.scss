@@ -1,129 +1,132 @@
 .screen-one{
-    position: relative;
-    background-size: 100%;
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    } 
+position: relative;
+background-size: 100%;
+background-image: url(../img/background.png);
+background-repeat: no-repeat;
+} 
     
-    div span {
-    background: #3A405B;
-    border-radius: 2px;
-    color: rgb(255, 255, 255);
-    padding: 0 2px;
-    }
+div span {
+background: #3A405B;
+border-radius: 0.2rem;
+color: rgb(255, 255, 255);
+padding: 0 0.2rem;
+}
     
-    a, a:visited, a:hover, a:active {
-    text-decoration: none;
-    color: inherit;
-    }
+a, a:visited, a:hover, a:active {
+text-decoration: none;
+color: inherit;
+}
     
-    .content {
-    flex: 1;
-    padding: 25rem 0 5rem;
-    overflow: hidden;
-    position: relative;
-    // height: 48.4vh;
-    }
+.content {
+flex: 1;
+padding: 25rem 0 5rem;
+overflow: hidden;
+position: relative;
+width: 100%;
+// height: 48.4vh;
+}
     
-    .content-wrapper{
-    position: relative;
-    z-index: 3;
-    width: 100%;
-    max-width: 1620px;
-    padding: 0 35px;
-    margin: 0 auto;
-    }
+.content-wrapper{
+position: relative;
+z-index: 3;
+width: 100%;
+max-width: 162rem;
+padding: 0 3.5rem;
+margin: 0 auto;
+}
+  
+.content-wrapper-elements {
+width: 100%;
+padding-left: 11rem;
+margin: 0 auto;
+}
+   
+h1 {
+position: absolute;
+left: 9.58%;
+right: 47.81%;
+top: 2.33%;
+bottom: 97.27%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 3.8rem;
+line-height: 111%;
+text-align: right;
+color: #FFFFFF;
+}
+ 
+.content-title2{
+position: absolute;
+left: 9.58%;
+right: 45.62%;
+top: 2.83%;
+bottom: 96.4%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 7.2rem;
+line-height: 111%;
+text-align: right;
+text-transform: capitalize;
+color: #FFFFFF;
+margin: 4rem;
+}
     
-    .content-wrapper-elements {
-    width: 100%;
-    padding-left: 110px;
-    margin: 0 auto;
-    }
+.course-version {
+position: absolute;
+left: 53.08%;
+right: 28.77%;
+top: 2.44%;
+bottom: 96.47%; 
+}
     
-    h1 {
-    position: absolute;
-    left: 9.58%;
-    right: 47.81%;
-    top: 2.33%;
-    bottom: 97.27%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 38px;
-    line-height: 111%;
-    text-align: right;
-    color: #FFFFFF;
-      }
+.offer {
+position: absolute;
+left: 12.78%;
+right: 46.25%;
+top: 3.8%;
+bottom: 95.3%;
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 3rem;
+line-height: 155.4%;
+color: #FFFFFF;
+margin-top: 14rem;
+}
     
-    .content-title2{
-    position: absolute;
-    left: 9.58%;
-    right: 45.62%;
-    top: 2.83%;
-    bottom: 96.4%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 111%;
-    text-align: right;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    margin: 40px;
-    }
+.content-title3 {
+position: absolute;
+left: 12.78%;
+right: 49.58%;
+top: 5.43%;
+bottom: 94.17%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 3.8rem;
+line-height: 111%;
+color: #FFFFFF;
+margin-top: 28rem;
+}
     
-    .course-version {
-    position: absolute;
-    left: 53.08%;
-    right: 28.77%;
-    top: 2.44%;
-    bottom: 96.47%; 
-    }
+.discount-timer-wrapper {
+display: flex;
+width: 60rem;
+height: 47.6rem;
+}
     
-    .offer {
-    position: absolute;
-    left: 12.78%;
-    right: 46.25%;
-    top: 3.8%;
-    bottom: 95.3%;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 155.4%;
-    color: #FFFFFF;
-    margin-top: 140px;
-    }
-    
-    .content-title3 {
-    position: absolute;
-    left: 12.78%;
-    right: 49.58%;
-    top: 5.43%;
-    bottom: 94.17%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 38px;
-    line-height: 111%;
-    color: #FFFFFF;
-    margin-top: 280px;
-    }
-    
-    .discount-timer-wrapper {
-    display: flex;
-    }
-    
-    .discount{
-    width: 291px;
-    height: 147px;
-    flex: 1;
-    margin-top: 355px;
-    margin-left: 67px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 105px;
-    line-height: 140.4%;
-    color: #FFFFFF;
-    }
+.discount{
+width: 29.1rem;
+height: 14.7rem;
+flex: 1;
+margin-top: 35.5rem;
+margin-left: 6.7rem;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 10.5rem;
+line-height: 140.4%;
+color: #FFFFFF;
+}

@@ -1,0 +1,38 @@
+.timer {
+width: 23.2rem;
+height: 12.4rem;
+margin-top: 35.5rem;
+margin-right: -5rem;
+}
+
+.count-wrapper {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 1.5rem;
+}
+
+.counter {
+border: 0.1rem solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: inset 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25), inset 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+border-radius: 1rem;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 5rem;
+line-height: 118.4%;
+color: #FFFFFF;
+padding: 1rem;
+margin: 0 1rem;
+}
+
+.metric {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.1rem;
+    line-height: 118.4%;
+    text-align: center;
+    color: #FFFFFF;
+}

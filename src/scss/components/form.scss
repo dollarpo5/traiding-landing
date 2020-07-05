@@ -1,17 +1,17 @@
 .form-wrapper {
-    width: 395px;
+    width: 39.5rem;
     float: right;
-    margin-right: 240px;
-    margin-top: -380px;
+    margin-right: 24rem;
+    margin-top: -38rem;
    }
    
    .form {
-   width: 250px;
+   width: 25rem;
    background: url(../img/column.png) no-repeat center/cover;
-   box-shadow: 0px 20px 40px rgba(18,18,18,0.4);
-   border-radius: 8px;
+   box-shadow: 0rem 2rem 4rem rgba(18,18,18,0.4);
+   border-radius: 0.8rem;
    text-align: center;
-   padding: 21px 60px 32px;
+   padding: 2.1rem 6rem 3.2rem;
    }
    
    .lock {
@@ -22,8 +22,8 @@
    font-family: 'Lato', sans-serif;
    font-family: 'Roboto', sans-serif;
    font-weight: normal;
-   font-size: 20px;
-   line-height: 31px;
+   font-size: 2rem;
+   line-height: 3.1rem;
    text-align: center;
    color: #3A405B;
    }
@@ -32,8 +32,8 @@
    font-family: 'Lato', sans-serif;
    font-family: 'Roboto', sans-serif;
    font-weight: normal;
-   font-size: 14px;
-   line-height: 22px;
+   font-size: 1.4rem;
+   line-height: 2.2rem;
    text-align: center;
    color: #3A405B;
    opacity: 0.8;
@@ -43,49 +43,49 @@
    max-width: 100%;
    display: flex;
    justify-content: center;
-   margin: 20px auto 20px;
+   margin: 2rem auto 2rem;
    }
    
    .facebook {
     background: url(../img/fb.png) no-repeat center/cover;
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;
     margin: 1rem;
    }
    
    .vkontakte {
    background: url(../img/vk.png) no-repeat center/cover;
-   width: 40px;
-   height: 40px;
+   width: 4rem;
+   height: 4rem;
    cursor: pointer;
    margin: 1rem;
    }
    
    .form-element {
    width: 100%;
-   margin-top: 12px;
+   margin-top: 1.2rem;
    background: #D2DBE9;
-   border-radius: 4px;
+   border-radius: 0.4rem;
    }
    
    .submit-button {
    font-family: 'Lato', sans-serif;
-   margin-top: 33px;
+   margin-top: 3.3rem;
    width: 100%;
    display: inline-block;
-   border: 1px solid #195DDC;
+   border: 0.1rem solid #195DDC;
    background: #010662;
-   box-shadow: 0px 10px 25px rgba(58,64,91,0.15);
-   border-radius: 100px;
+   box-shadow: 0rem 1rem 2.5rem rgba(58,64,91,0.15);
+   border-radius: 10rem;
    font-weight: bold;
-   font-size: 12px;
-   line-height: 14px;
+   font-size: 1.2rem;
+   line-height: 1.4rem;
    text-align: center;
-   letter-spacing: 1px;
+   letter-spacing: 0.1rem;
    text-transform: uppercase;
    color: #FFFFFF;
-   padding: 14px 28px;
+   padding: 1.4rem 2.8rem;
    transition: 0.5s;
    cursor: pointer;
    outline: none;
@@ -99,8 +99,8 @@
    font-family: 'Lato', sans-serif;
    font-style: normal;
    font-weight: 300;
-   font-size: 16px;
-   line-height: 25px;
+   font-size: 1.6rem;
+   line-height: 2.5rem;
    margin: 2rem 0 0 1rem;
    cursor: pointer;
    }

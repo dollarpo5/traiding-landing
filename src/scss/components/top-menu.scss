@@ -9,18 +9,18 @@ z-index: 4;
 display: flex;
 align-items: center;
 background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2A2E31;
-box-shadow: 0px 10px 25px rgba(58, 64, 91, 0.15);
-border-radius: 100px 0px 0px 100px;
+box-shadow: 0rem 1rem 2.5rem rgba(58, 64, 91, 0.15);
+border-radius: 10rem 0rem 0rem 10rem;
 padding: 1rem;
--webkit-box-shadow: 0px 20px 100px 30px rgba(0,0,0,0.46);
--moz-box-shadow: 0px 20px 100px 30px rgba(0,0,0,0.46);
-box-shadow: 0px 20px 100px 30px rgba(0,0,0,0.46);
+-webkit-box-shadow: 0rem 2rem 10rem 3rem rgba(0,0,0,0.46);
+-moz-box-shadow: 0rem 2rem 10rem 3rem rgba(0,0,0,0.46);
+box-shadow: 0rem 2rem 10rem 3rem rgba(0,0,0,0.46);
 }
   
 .header-top-menu {
 display: flex;
 align-items: center;
-padding: 4px 0 4px 4px;
+padding: 0.4rem 0 0.4rem 0.4rem;
 position: relative;
 }
   
@@ -36,7 +36,7 @@ padding: 1rem;
 }
   
 .phone-call {
-width: 180px;
+width: 18rem;
 display: flex;
 align-items: center;
 position: relative;
@@ -44,55 +44,55 @@ z-index: 2;
 }
   
 .phone-call__icon {
-width: 36px;
-height: 36px;
+width: 3.6rem;
+height: 3.6rem;
 border-radius: 50%;
 background: url(../../img/call.svg) no-repeat center,#195DDC;
-margin-right: 14px;
+margin-right: 1.4rem;
 }
   
 .phone-call__number {
 font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 900;
-font-size: 12px;
-line-height: 14px;
+font-size: 1.2rem;
+line-height: 1.4rem;
 text-align: center;
-letter-spacing: 1px;
+letter-spacing: 0.1rem;
 text-transform: uppercase;
 color: #4D53C0;
 }
 
 .phone-call__arrow {
-width: 12px;
-height: 12px;
+width: 1.2rem;
+height: 1.2rem;
 background: url(../../img/Arrow.svg) no-repeat center/contain;
-margin-left: 4px;
+margin-left: 0.4rem;
 transition: 0.3s;
 cursor: pointer;
 }
 
 .white-arrow {
-width: 16px;
-height: 16px;
+width: 1.6rem;
+height: 1.6rem;
 background: url(../../img/Arrow-white.svg) no-repeat center/contain;
 }
 
 .white {
-font-size: 12px;
+font-size: 1.2rem;
 color: #ffffff; 
 }
   
 .header-top-menu__item {
 font-family: 'Lato', sans-serif;
 font-weight: bold;
-font-size: 12px;
-line-height: 14px;
+font-size: 1.2rem;
+line-height: 1.4rem;
 text-align: center;
-letter-spacing: 1px;
+letter-spacing: 0.1rem;
 text-transform: uppercase;
 color: rgba(58,64,91,0.6);
-margin-right: 50px;
+margin-right: 5rem;
 position: relative;
 z-index: 2;
 text-decoration: none;
@@ -103,21 +103,21 @@ transition: 0.5s;
 .phone-call__list {
 width: 100%;
 min-width: initial;
-padding: 12px 10px;
+padding: 1.2rem 1rem;
 position: absolute;
-top: 50px;
+top: 5rem;
 left: 0;
 }
 
 .submenu-box {
-    display: none;
-    min-width: 260px;
-    box-shadow: 0px 20px 40px rgba(18,18,18,0.4);
-    background: #FFFFFF;
-    border-radius: 4px;
-    padding: 24px;
-    position: absolute;
-    z-index: 50;
+display: none;
+min-width: 26rem;
+box-shadow: 0rem 2rem 4rem rgba(18,18,18,0.4);
+background: #FFFFFF;
+border-radius: 0.4rem;
+padding: 2.4rem;
+position: absolute;
+z-index: 50;
 }
   
 .header-bottom {
@@ -132,18 +132,18 @@ align-items: center;
 font-family: Lato;
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
+font-size: 1.6rem;
 }
   
 .header-bottom-menu__item {
 font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-weight: 600;
-font-size: 16px;
+font-size: 1.6rem;
 color: #ffffff;
-line-height: 25px;
-letter-spacing: 0.15px;
-padding: 18px 0;
+line-height: 2.5rem;
+letter-spacing: 0.015rem;
+padding: 1.8rem 0;
 margin: 0 3rem;
 position: relative;
 } 

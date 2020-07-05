@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@100;500;700&display=swap" rel="stylesheet"> 
+    <!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- <div id="list">	 -->
 <div class="screen-one">
 
     <div class="sidenav">
@@ -117,7 +120,6 @@
                             </svg>                            
                 </a>                                                                     
             </div>
-            
       </div>
 
       <div class="header-wrapper">
@@ -149,18 +151,9 @@
                     
                     <script> 
                     $(function () {
-                    // Let's attach an event.
-                    $('#phone-arrow').click(function (e) {
-                        $("#submenu").css("display", "none");
-                    });
-                    // This will hide the container surely when you click.
-                    $("#hide-container").click(function () {
-                        $("#eventContainer").hide().css("display", "none");
-                    });
-                    // This will trigger the event on the element.
-                    $("#trigger-event").click(function () {
-                        $("#eventContainer").trigger("click");
-                    });
+                        $('#phone-arrow').click(function (e) {
+                            $("#submenu").css("display", "block");
+                        });
                     });
                     </script>
 
@@ -220,6 +213,18 @@
                     <div class="content-title3">Только для первых 30 студентов</div>
                     <div class="discount-timer-wrapper">
                         <div class="discount">– 20%</div>
+                        <div class="timer">
+                            <div id="demo" class="count-wrapper">
+                                <span class="counter day"> 01 </span>
+                                <span class="counter hour"> 02 </span>
+                                <span class="counter minute"> 00 </span>
+                            </div>
+                            <div class="count-wrapper">
+                                <span class="metric"> Деней </span>
+                                <span class="metric"> часов </span>
+                                <span class="metric"> минут </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                      <div class="form-wrapper">
@@ -241,13 +246,13 @@
                                 </div>
                                 </a>
                             </div>
-        <form
-        class="formblock"
-        id="reg-form1"
-        action= "https://docs.google.com/forms/d/19awjAhhaWTJzNmwH3LeSghmDJNw0axTBR2xTvdgurdY/edit?usp=sharing"
-        method="post"
-        name="reg-form"
-        novalidate="novalidate">
+                    <form
+                    class="formblock"
+                    id="reg-form1"
+                    action= "https://docs.google.com/forms/d/19awjAhhaWTJzNmwH3LeSghmDJNw0axTBR2xTvdgurdY/edit?usp=sharing"
+                    method="post"
+                    name="reg-form"
+                    novalidate="novalidate">
 
                     <div class="form-element">
                         <input type="text" name="firstName" placeholder="Имя" value="" required="">
@@ -453,8 +458,7 @@
             <div class="screen-four-title">5 ГЛАВНЫХ ТЕМ КУРСА</div>
         </div>
         <div class="video-lesson">
-        <iframe src="http://www.youtube.com/embed/W7qWa52k-nE"
-   width="1280" height="720" frameborder="0" allowfullscreen></iframe>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/HyHNuVaZJ-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
 </div>
@@ -576,13 +580,13 @@
                        </div>
                        </a>
                    </div>
-<form
-class="formblock"
-id="reg-form1"
-action= "https://docs.google.com/forms/d/19awjAhhaWTJzNmwH3LeSghmDJNw0axTBR2xTvdgurdY/edit?usp=sharing"
-method="post"
-name="reg-form"
-novalidate="novalidate">
+        <form
+        class="formblock"
+        id="reg-form1"
+        action= "https://docs.google.com/forms/d/19awjAhhaWTJzNmwH3LeSghmDJNw0axTBR2xTvdgurdY/edit?usp=sharing"
+        method="post"
+        name="reg-form"
+        novalidate="novalidate">
 
            <div class="form-element">
                <input type="text" name="firstName" placeholder="Имя" value="" required="">
@@ -661,5 +665,17 @@ novalidate="novalidate">
         </div>
     </div>
 </div>
+
+    <!-- </div> -->
+
+<!-- <div class="overflow"></div>
+<div class="popup">
+    <iframe src="http://www.youtube.com/embed/W7qWa52k-nE"
+    width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    <a href="#" class="close"></a></div> -->
+
+<!-- <script src="js/pop-up.js"></script> -->
+<script src="js/timer.js" ></script>
+<script src="js/"></script>
 </body>
 </html>
